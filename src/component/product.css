@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Allproduct{
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.products{
+    background-color: #f2f2f2;
+    width: 30%;
+    margin: 1%;
+    padding: 2%;
+}
+.products>img{
+    width: 100%;
+}
+@media (max-width:1200px) {
+    .products{
+        width: 40%;
+    }
+}
+
+@media (max-width:600px) {
+    .products{
+        width: 100%;
+    }
+}
